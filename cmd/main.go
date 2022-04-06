@@ -6,6 +6,10 @@ import (
 )
 
 func main() {
+	/* var core ports.ArithmeticPort
+
+	core = arithmetic.NewAdapter() */
+
 	arithmeticAdapter := arithmetic.NewAdapter()
 
 	result, err := arithmeticAdapter.Addition(1, 3)
